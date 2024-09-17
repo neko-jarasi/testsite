@@ -15,11 +15,13 @@
   a:visited { color: rgb(0, 0, 0) }
 }
 #menuicon{
-  text-align: left;
   font-size: 40px;
 }
 #menuname{
   font-size: 20px;
+}
+#menulogo{
+  text-align: left;
 }
 .container{
   width: 100%;
