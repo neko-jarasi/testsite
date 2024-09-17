@@ -3,11 +3,23 @@
   height: 50px;
   position: sticky;
   background-color: rgb(211, 211, 211);
-  top: 0;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+#menulink{
+  top: 0px;
   text-align: right;
   font-size: 30px;
   a:link { color: rgb(0, 0, 0) } 
   a:visited { color: rgb(0, 0, 0) }
+}
+#menuicon{
+  text-align: left;
+  font-size: 40px;
+}
+#menuname{
+  font-size: 20px;
 }
 .container{
   width: 100%;
@@ -33,4 +45,10 @@
 }
 #profile{
   font-size: 30px;
+}
+#kiroku{
+  margin-left: 100px;
+}
+.time{
+  margin-left: 20px;
 }
