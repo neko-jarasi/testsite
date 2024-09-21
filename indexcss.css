@@ -16,9 +16,11 @@
 }
 #menuicon{
   font-size: 40px;
+  margin-top: 5px;
 }
 #menuname{
   font-size: 20px;
+  margin-left: 20px;
 }
 #menulogo{
   text-align: left;
@@ -30,27 +32,30 @@
 }
 #name{
   font-size: 70px;
+  margin-left: 70px;
 }
 #icon{
   margin-top: 10px;
   pointer-events: none;
 }
 .square{
-  font-size: 10;
-  display: inline-block;
   display: flex;
-  justify-content: center;
-  width: 85%;
+  flex-direction: column;
+  width: 70%;
   background-color: rgb(223, 255, 174);
   margin: 0 auto;
-  font-size: 25px;
+}
+#profiletitle{
+  font-size: 30px;
+  margin-left: 95px;
 }
 #profile{
-  font-size: 30px;
+  font-size: 25px;
+  margin-left: 195px;
 }
 #kiroku{
   margin-left: 100px;
 }
-.time{
+.day{
   margin-left: 20px;
 }
